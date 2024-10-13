@@ -1,0 +1,9 @@
+#pass rules section
+pass udp $HOME_NET any -> 8.8.8.8 53 (msg:"possible backdoor over dns"; flow:stateless; content:"passwd"; nocase; within:40; sid:1000003; rev:1;)
+
+
+#example netcat backdoor
+#alert tcp $HOME_NET any -> $EXTERNAL_NET 8000 (msg:"ncat possible backdoor over 8000"; flow:established,to_server; content:"whoami"; nocase; depth:10; sid:1000003; rev:1;)
+
+#dns possible backdoor c2
+alert udp $HOME_NET any -> $EXTERNAL_NET 53 (msg:"possible backdoor over dns"; flow:stateless; content:"passwd"; nocase; within:40; sid:1000101; rev:1;)

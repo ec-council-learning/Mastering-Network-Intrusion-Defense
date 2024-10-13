@@ -1,0 +1,4 @@
+10/15/2023-08:30:15.123456  [**] [1:2000345:3] ET POLICY SSH session in progress [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.100:54321 -> 10.0.0.50:22
+10/15/2023-08:31:22.234567  [**] [1:2001219:20] ET SCAN Potential SSH Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.101:60000 -> 10.0.0.51:22
+10/15/2023-08:32:30.345678  [**] [1:2010935:2] ET POLICY Suspicious inbound to mySQL port 3306 [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 192.168.1.102:45678 -> 10.0.0.52:3306
+10/15/2023-08:33:45.456789  [**] [1:2012887:6] ET POLICY RDP connection attempt [**] [Classification: Misc activity] [Priority: 3] {TCP} 192.168.1.103:50000 -> 10.0.0.53:3389

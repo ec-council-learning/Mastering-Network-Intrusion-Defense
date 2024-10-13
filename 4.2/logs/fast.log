@@ -1,0 +1,3 @@
+10/10/2024-09:40:10.051524  [**] [1:1000001:1] ping to cloudflare dns servers [**] [Classification: (null)] [Priority: 3] {ICMP} 192.168.150.129:8 -> 1.1.1.1:0
+10/10/2024-09:43:38.215785  [**] [1:1000001:2] ping to cloudflare dns servers [**] [Classification: (null)] [Priority: 3] {ICMP} 192.168.150.129:8 -> 1.1.1.1:0
+10/10/2024-09:48:03.571197  [**] [1:1000002:1] HTTP GET Request [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.150.129:60484 -> 35.180.139.74:80

@@ -1,0 +1,62 @@
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: cpu: CPUs/cores online: 8
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: suricata: Setting engine mode to IDS mode by default
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: exception-policy: master exception-policy set to: auto
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: ioctl: ens33: MTU 1500
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: conf: Running in live mode, activating unix socket
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: logopenfile: fast output device (regular) initialized: fast.log
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: logopenfile: stats output device (regular) initialized: stats.log
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Warning: detect: No rule files match the pattern rules/emerging-exploit.rules
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Error: detect-parse: Duplicate signature "alert udp $HOME_NET any -> $EXTERNAL_NET 53 (msg:"possible backdoor over dns"; flow:stateless; content:"passwd"; nocase; within:40; sid:1000101; rev:1;)"
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Error: detect: error parsing signature "alert udp $HOME_NET any -> $EXTERNAL_NET 53 (msg:"possible backdoor over dns"; flow:stateless; content:"passwd"; nocase; within:40; sid:1000101; rev:1;)" from file ./local.rules at line 9
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: detect: 2 rule files processed. 1 rules successfully loaded, 1 rules failed, 0
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: detect: 1 signatures processed. 0 are IP-only rules, 1 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: runmodes: ens33: creating 8 threads
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Info: unix-manager: unix socket '/var/suricata-command.socket'
+[61343 - Suricata-Main] 2024-10-10 12:07:12 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[61343 - Suricata-Main] 2024-10-10 12:07:17 Notice: suricata: Signal Received.  Stopping engine.
+[61343 - Suricata-Main] 2024-10-10 12:07:17 Info: suricata: time elapsed 5.294s
+[61343 - Suricata-Main] 2024-10-10 12:07:18 Info: counters: Alerts: 0
+[61343 - Suricata-Main] 2024-10-10 12:07:18 Notice: device: ens33: packets: 0, drops: 0 (0.00%), invalid chksum: 0
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: cpu: CPUs/cores online: 8
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: suricata: Setting engine mode to IDS mode by default
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: exception-policy: master exception-policy set to: auto
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: ioctl: ens33: MTU 1500
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: conf: Running in live mode, activating unix socket
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: logopenfile: fast output device (regular) initialized: fast.log
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: logopenfile: stats output device (regular) initialized: stats.log
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Warning: detect: No rule files match the pattern rules/emerging-exploit.rules
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: detect: 2 rule files processed. 2 rules successfully loaded, 0 rules failed, 0
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: detect: 2 signatures processed. 0 are IP-only rules, 2 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: runmodes: ens33: creating 8 threads
+[61378 - Suricata-Main] 2024-10-10 12:07:36 Info: unix-manager: unix socket '/var/suricata-command.socket'
+[61378 - Suricata-Main] 2024-10-10 12:07:37 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[61378 - Suricata-Main] 2024-10-10 12:07:55 Notice: suricata: Signal Received.  Stopping engine.
+[61378 - Suricata-Main] 2024-10-10 12:07:55 Info: suricata: time elapsed 19.102s
+[61378 - Suricata-Main] 2024-10-10 12:07:56 Info: counters: Alerts: 0
+[61378 - Suricata-Main] 2024-10-10 12:07:56 Notice: device: ens33: packets: 66, drops: 0 (0.00%), invalid chksum: 0
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Notice: suricata: This is Suricata version 7.0.3 RELEASE running in SYSTEM mode
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Info: cpu: CPUs/cores online: 8
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Info: suricata: Setting engine mode to IDS mode by default
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Info: exception-policy: master exception-policy set to: auto
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Info: ioctl: ens33: MTU 1500
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Info: conf: Running in live mode, activating unix socket
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Info: logopenfile: fast output device (regular) initialized: fast.log
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Info: logopenfile: stats output device (regular) initialized: stats.log
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Warning: detect: No rule files match the pattern rules/emerging-exploit.rules
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Info: detect: 2 rule files processed. 2 rules successfully loaded, 0 rules failed, 0
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Info: detect: 2 signatures processed. 0 are IP-only rules, 2 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[61407 - Suricata-Main] 2024-10-10 12:08:00 Info: runmodes: ens33: creating 8 threads
+[61407 - Suricata-Main] 2024-10-10 12:08:01 Info: unix-manager: unix socket '/var/suricata-command.socket'
+[61407 - Suricata-Main] 2024-10-10 12:08:01 Notice: threads: Threads created -> W: 8 FM: 1 FR: 1   Engine started.
+[61407 - Suricata-Main] 2024-10-10 12:08:12 Notice: suricata: Signal Received.  Stopping engine.
+[61407 - Suricata-Main] 2024-10-10 12:08:13 Info: suricata: time elapsed 12.135s
+[61407 - Suricata-Main] 2024-10-10 12:08:14 Info: counters: Alerts: 1
+[61407 - Suricata-Main] 2024-10-10 12:08:14 Notice: device: ens33: packets: 56, drops: 0 (0.00%), invalid chksum: 0

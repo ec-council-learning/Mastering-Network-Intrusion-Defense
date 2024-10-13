@@ -1,0 +1,10 @@
+2023-04-13 10:15:23 [INFO] Detected suspicious network scan from IP 192.168.1.100
+2023-04-13 10:16:45 [WARN] Possible brute force attempt on SSH service
+2023-04-13 10:18:12 [ALERT] Malware signature detected: Trojan.Generic.123456
+2023-04-13 10:20:30 [INFO] Unusual outbound connection to IP 203.0.113.42
+2023-04-13 10:22:55 [WARN] Multiple failed login attempts detected
+2023-04-13 10:25:17 [ALERT] Command and control (C2) traffic identified
+2023-04-13 10:27:40 [INFO] Large data transfer to external IP 198.51.100.75
+2023-04-13 10:30:05 [WARN] Potential data exfiltration attempt detected
+2023-04-13 10:32:28 [ALERT] Ransomware behavior observed: mass file encryption
+2023-04-13 10:35:50 [INFO] Unusual process spawned with high privileges

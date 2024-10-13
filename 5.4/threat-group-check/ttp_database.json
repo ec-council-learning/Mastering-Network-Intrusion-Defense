@@ -1,0 +1,15 @@
+{
+  "APT29": [
+    "Network scanning",
+    "Brute force attacks",
+    "Malware deployment",
+    "C2 communication",
+    "Data exfiltration"
+  ],
+  "Lazarus Group": [
+    "Unusual outbound connections",
+    "Multiple failed logins",
+    "Large data transfers",
+    "Ransomware behavior"
+  ]
+}
