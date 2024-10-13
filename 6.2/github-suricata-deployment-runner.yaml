@@ -1,0 +1,40 @@
+name: Suricata Unit Tests and Deployment
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'tests/*'
+      - 'rules/*'
+
+jobs:
+  test-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      REMOTE_PASSWORD: ${{ secrets.SURICATA_SECRET_SSH_MGT_PASSWORD }}
+    
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y suricata
+        pip install pytest
+
+    - name: Run unit tests
+      run: |
+        python suricata-rule-test-ci.py
+
+    - name: Install sshpass
+      run: sudo apt-get install -y sshpass
+
+    - name: Deploy rules to sensor
+      run: |
+        chmod +x deploy_rules.sh
+        ./deploy_rules.sh
